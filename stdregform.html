@@ -1,0 +1,163 @@
+<html>
+<body>
+<head><title>
+Registration Form</title>
+</head>
+<center> <h3> STUDENT REGISTRATION FORM </h3>
+<form name="stdregform" method="get">
+<table border="2" cellpadding="10">
+<tr><td>FIRST NAME </td>
+<td><input type="text" name="firstname" maxlength="30">
+</td>
+</tr>
+<tr><td>LAST NAME </td>
+<td><input type="text" name="firstname" maxlength="30">
+</td>
+</tr>
+<tr><td>DATE OF BIRTH </td>
+<td><select>
+<option>DAY</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>25</option>
+</select>
+<select>
+<option>MONTH</option>
+<option>JAN</option>
+<option>FEB</option>
+<option>MARCH</option>
+<option>APRIL</option>
+<option>MAY</option>
+<option>JUNE</option>
+<option>JULY</option>
+<option>AUGUST</option>
+<option>SEPTEMBER</option>
+<option>OCTOBER</option>
+<option>NOVEMBER</option>
+<option>DECEMBER</option>
+
+</select>
+<select>
+<option>YEAR</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+<option>2002</option>
+</select>
+</td>
+</tr>
+<tr><td>EMAIL ID </td>
+<td><input type="email" name="email" >
+</td>
+</tr>
+<tr><td>MOBILE NUMBER </td>
+<td><input type="text" name="mobno" maxlength="10" minlength="10" pattern="[7-9]{1}[0-9]{9}">
+</td>
+</tr>
+<tr><td>GENDER </td>
+<td>Male<input type="radio" name="gender" value="male">
+Female<input type="radio" name="gender" value="female">
+</td>
+</tr>
+<tr><td>ADDRESS </td>
+<td><textarea rows="5" cols="40"></textarea>
+</td>
+</tr>
+<tr><td>CITY </td>
+<td><input type="text" name="city" maxlength="30">
+</td>
+</tr>
+<tr><td>PINCODE </td>
+<td><input type="number" name="pincode" maxlength="6" minlength="6">
+</td>
+</tr>
+<tr><td>STATE </td>
+<td><input type="text" name="state" maxlength="30">
+</td>
+</tr>
+<tr><td>COUNTRY </td>
+<td><input type="text" name="country" value="INDIA">
+</td>
+</tr>
+<tr><td>HOBBIES </td>
+<td>Drawing<input type="checkbox" name="drawing" value="on">
+Singing<input type="checkbox" name="sining" value="on">
+Dancing<input type="checkbox" name="dancing" value="on">
+Sketching<input type="checkbox" name="sketching" value="on">
+Others<input type="checkbox" name="others" value="on">
+<input type="text" name="hobbies" >
+</td>
+</tr>
+<tr rowspan="5"><td>QUALIFICATION </td>
+<td><table><tr> <th>S.No.</th>
+<th>Examination</th>
+<th>Board</th>
+<th>Percentage</th> 
+<th>Year of passing</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Class X </td>
+<td> <input type="text" name="board"</td>
+<td> <input type="number" name="percentage"</td>
+<td> <input type="number" name="year"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Class XII </td>
+<td> <input type="text" name="board"</td>
+<td> <input type="number" name="percentage"</td>
+<td> <input type="number" name="year"</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Graduation </td>
+<td> <input type="text" name="board"</td>
+<td> <input type="number" name="percentage"</td>
+<td> <input type="number" name="year"</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Masters </td>
+<td> <input type="text" name="board"</td>
+<td> <input type="number" name="percentage"</td>
+<td> <input type="number" name="year"</td>
+</tr><tr>
+<td></td>
+<td>(10 char max)</td>
+<td>(upto 2 decimal)</td>
+<td></td>
+</tr>
+</table>
+<tr> <td> COURSES APPLIED FOR</td>
+<td> MCA <input type="radio" name="course" value="mca">
+ Mtech <input type="radio" name="course" value="mca">
+ MSc <input type="radio" name="course" value="mca">
+ Ph D <input type="radio" name="course" value="mca">
+</td>
+</tr>
+<tr><td>Type Your Password</td>
+<td><input type="password" name="pwd">(max 30 characters)</td></tr>
+<tr><td>Upload Your Photo</td>
+<td><input type="file" ></tr>
+<tr><td>Date of TC</td>
+<td><input type="date" name="date"></tr>
+<tr><td colspan="2"><center> <input type="submit" name="submit" value="submit">
+<input type="reset" name="reset" value="reset"></td></tr>
+</body>
+</html>
