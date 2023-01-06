@@ -3,7 +3,8 @@
 <title>Validating Form</title>
 <script>
 function validate()
-{var name=document.foms["frm"]["name"].value;
+{
+var name=document.foms["frm"]["name"].value;
 var contact=document.foms["frm"]["contact"].value;
 var email=document.foms["frm"]["email'].value;
 var phoneno=/^\d{10}$/;
@@ -29,8 +30,7 @@ else if(!(email.match(mailformat))
 return false;
 }
 else
-{
-alert("Successfully submitted")
+alert("Successfully submitted");
 }
 </script>
 </head>
@@ -48,4 +48,5 @@ Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <input type="submit" value="submit"><br/><br/>
 </b>
 </form>
+</body>
 </html>
